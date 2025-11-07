@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: hello-app
-          image: nathanols/hello-app:20251106183642
+          image: nathanols/hello-app:latest   # <-- será atualizado pela pipeline
           ports:
             - containerPort: 8080
